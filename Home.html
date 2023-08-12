@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Book</title>
+    <link rel="indexsheet" href="index.css">
+    <link rel="stylesheet" href="utils.css">
+    <script src="https://kit.fontawesome.com/9001de1482.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="https://www.svief.org/star/wp-content/uploads/2019/11/SocialBook.png " style="mix-blend-mode: darken;" width="290" height="50" class="logo">
+            <ul>
+                <li><img src="https://pixlok.com/wp-content/uploads/2021/12/Notification-Icon-SVG-03cde.png" width="40" height="20" > </li>
+                <li><img src="https://simpleicon.com/wp-content/uploads/mail-inbox.png" width="40" height="20"></li>
+                <li><img src="https://www.iconpacks.net/icons/1/free-video-icon-818-thumb.png" width="40" height="20"></li>
+                 
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" style="mix-blend-mode: darken;" width="20" height="20">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" width="50" height="50">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-Profile">
+                    <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" style="mix-blend-mode: darken;" width="40" height="40">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="user-Profile">
+                    <img src="https://toppng.com/uploads/preview/feedback-icon-give-feedback-icon-11553501810noyagntfwj.png" style="mix-blend-mode: darken;" width="40" height="40">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3235326/grey-settings-icon-md.png" style="mix-blend-mode: darken;" width="40" height="40" class="setting-icons">
+                    <a href="#">Settings & Privacy  <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-droite-grise.png" style="mix-blend-mode: darken;" width="30" height="20"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="https://www.seekpng.com/png/detail/242-2425880_one-click-support-customer-service-icon-png.png" style="mix-blend-mode: darken;" width="40" height="40"  class="setting-icons">
+                    <a href="#"> Help & Support  <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-droite-grise.png" style="mix-blend-mode: darken;" width="30" height="20"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="https://cdn-icons-png.flaticon.com/512/137/137416.png" style="mix-blend-mode: darken;" width="40" height="40"  class="setting-icons">
+                    <a href="#">Display & Accessibility <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-droite-grise.png" style="mix-blend-mode: darken;" width="30" height="20"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="https://image.pngaaa.com/528/4790528-middle.png" style="mix-blend-mode: darken;" width="40" height="40"  class="setting-icons">
+                    <a href="#">Logout <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-droite-grise.png" style="mix-blend-mode: darken;" width="30" height="20"></a>
+                </div>
+
+            </div>
+           
+            
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="https://medatech.com/wp-content/uploads/2016/06/News-Icon-.jpg" style="mix-blend-mode: darken;" width="50" height="50">Latest News</a>
+                <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-6/177800/299-512.png"  style="mix-blend-mode: darken;" width="50" height="50">Friends</a>
+                <a href="#"><img src="https://img.favpng.com/11/2/5/computer-icons-icon-design-users-group-png-favpng-aSN9Fyu3Qhy7wxVaa87WtsBsA.jpg" style="mix-blend-mode: darken;" width="50" height="50">Group</a>
+                <a href="#"><img src="https://w7.pngwing.com/pngs/79/984/png-transparent-computer-icons-youtube-human-longevity-youtube-blue-angle-rectangle.png" style="mix-blend-mode: darken;" width="50" height="50">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"  style="mix-blend-mode: darken;" width="100" height="200" class="img11" > 
+                    <img src="https://cdn-icons-png.flaticon.com/512/5948/5948875.png"  style="mix-blend-mode: darken;" width="30" height="30"class="img22" > 
+                    <p> Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="https://img.freepik.com/free-photo/portrait-dark-skinned-cheerful-woman-with-curly-hair-touches-chin-gently-laughs-happily-enjoys-day-off-feels-happy-enthusiastic-hears-something-positive-wears-casual-blue-turtleneck_273609-43443.jpg"  style="mix-blend-mode: darken;" width="100" height="200" class="img1" > 
+                    <img src="https://www.positivelysplendid.com/wp-content/uploads/2013/09/Circle-Crop-Profile.png"  style="mix-blend-mode: darken;" width="30" height="30"class="img2" > 
+                    <p> Khushi</p>
+                </div>
+                <div class="story story3">
+                    <img src="https://5.imimg.com/data5/ANDROID/Default/2022/10/TS/OW/ZT/48277058/product-jpeg-500x500.jpg"  style="mix-blend-mode: darken;" width="100" height="200" class="img1" > 
+                    <img src="https://tricky-photoshop.com/wp-content/uploads/2017/08/6.jpg"  style="mix-blend-mode: darken;" width="30" height="30"class="img2" > 
+                    <p> Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="https://images.unsplash.com/photo-1496302662116-35cc4f36df92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"  style="mix-blend-mode: darken;" width="100" height="200" class="img1" > 
+                    <img src="https://photokit.com/features/images/clipping-after.webp"  style="mix-blend-mode: darken;" width="30" height="30"class="img2" > 
+                    <p> Alison</p>
+                </div>
+                <div class="story story5">
+                    <img src="https://i.pinimg.com/originals/1a/96/50/1a965077626afd66da835d12c6a4ce96.jpg"  style="mix-blend-mode: darken;" width="100" height="200" class="img1" > 
+                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg"  style="mix-blend-mode: darken;" width="30" height="30"class="img2" > 
+                    <p> Alison</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-Profile">
+                    <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/009/385/764/original/video-camera-icon-sign-symbol-design-free-png.png" style="mix-blend-mode: darken;" width="40" height="20" > Live Video</a>
+                        <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/02/icono-de-camara-verte.png" width="40" height="20" style="mix-blend-mode: darken;">Photo/Video</a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/1200px-Twemoji_1f600.svg.png" width="40" height="20" style="mix-blend-mode: darken;">Feeling/Activity</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="user-Profile">
+                    <img src="https://www.almondsolutions.com/images/blog-social-media-sharing-130921.jpg" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>Jenni Jackson</p>
+                        <span>Today,9:00 AM</span>
+                    </div>
+                </div>
+                <p> What a great evening with such a great people</p>
+                <img src="https://media.istockphoto.com/id/852541998/photo/friends-having-fun.jpg?s=612x612&w=0&k=20&c=YnfHHQy0PeNOgwFbP8rjTYjLs_PlhczbQ2lOJVHZA48=" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 120</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">45</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">20</a>
+                    </div>
+                </div>
+
+
+                <div class="user-Profile">
+                    <img src="https://cdn.cnn.com/cnnnext/dam/assets/210818213559-golden-retriever-moos-super-169.jpg" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>Rusty Rodas</p>
+                        <span>Today,6:00 AM</span>
+                    </div>
+                </div>
+                <p> Meet my best Friend </p>
+                <img src="https://www.hindustantimes.com/ht-img/img/2023/05/24/550x309/Tucker_dog_1684942680499_1684942687229.png" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 211</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">60</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">50</a>
+                    </div>
+                </div>
+
+
+                <div class="user-Profile">
+                    <img src="https://imgix.bustle.com/uploads/getty/2021/10/5/f0b8fe58-ed03-4ea2-b086-eb1967455041-getty-1318044158.jpg?w=374&h=249&fit=crop&crop=faces&auto=format%2Ccompress" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>Alina Park</p>
+                        <span>Yesterday 11:00 Pm</span>
+                    </div>
+                </div>
+                <p> Live your life and forget your age. Birthdays are good for me. The more I have, the longer I live.
+                    Happiest Birthday to me!!
+
+                </p>
+                <img src="https://moviekoop.com/Images/News/Nayanthara-HBD.jpg" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 80</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">44</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">10</a>
+                    </div>
+                </div>
+
+
+                <div class="user-Profile">
+                    <img src="https://www.archiefoundationhome.org.uk/wp-content/uploads/2020/05/profile-photo-social-media.jpg" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>darsh Bhardwaj</p>
+                        <span>Yesterday, 6:00pm</span>
+                    </div>
+                </div>
+                <p> Find me where the wild things are. Keep close to nature's heart.
+                    Never stop exploring.
+                </p>
+                <img src="https://www.travelandleisure.com/thmb/J9Xzi1xqOefB-KJoViY0hPYogVU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/canyonlands-national-park-utah-NATUREINSTA0318-f08ec938253e4096aef0feca93e0e1bd.jpg" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 60</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">30</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">5</a>
+                    </div>
+                </div>
+
+
+                <div class="user-Profile">
+                    <img src="https://wemakeitdrain.com/jpg/1592241040775.jpg" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>Charu Sharan</p>
+                        <span>Webnesday, 8:45 pm</span>
+                    </div>
+                </div>
+                <p> Coffee in hand, ready to conquer the day #OfficeVibes.</p>
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/24/16/yougov-remote-working.jpg" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 200</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">9</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">19</a>
+                    </div>
+                </div>
+
+
+                <div class="user-Profile">
+                    <img src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80" style="mix-blend-mode: darken;" width="60" height="60">
+                    <div>
+                        <p>Devika</p>
+                        <span>Tueday,3:00 pm</span>
+                    </div>
+                </div>
+                <p> Now we can hang out forever!
+                    Congratulations to Us!
+                </p>
+                <img src="https://images.pexels.com/photos/5971180/pexels-photo-5971180.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5971180.jpg&fm=jpg" class="post-image"   width="320" height="200">
+                 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <img src="https://w7.pngwing.com/pngs/7/748/png-transparent-facebook-like-button-chemical-reaction-computer-icons-facebook-blue-text-hand.png" style="mix-blend-mode: darken;" width="40" height="20" > 120</a>
+                        <img src="https://www.seekpng.com/png/detail/119-1196181_comment-comment-icon-png-gray.png" width="40" height="20" style="mix-blend-mode: darken;">45</a>
+                        <img src="https://e7.pngegg.com/pngimages/833/675/png-clipart-computer-icons-facebook-inc-share-icon-facebook-messenger-facebook-angle-linkedin-thumbnail.png" width="40" height="20" style="mix-blend-mode: darken;">20</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <button type="button" class="load-more">Load More</button>
+
+        </div>
+
+
+
+
+        <div class="right-sidebar">
+              <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+              </div>
+
+              <div class="event">
+                <div class="left-event">
+                    <h3>3</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-pin"></i> Palak Malik</p>
+                    <a href="#">More Info</a>
+                </div>
+              </div>
+              <div class="event">
+                <div class="left-event">
+                    <h3>4</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile </h4>
+                    <p><i class="fa-sharp fa-solid fa-location-pin"></i> Palak Malik</p>
+                    <a href="#">More Info</a>
+                </div>
+              </div>
+             <div class="sidebar-title">
+                    <h4>Advertisment</h4>
+                    <a href="#">Close</a>
+            </div>
+            <img src="https://img.freepik.com/free-psd/food-social-media-banner-post-template_202595-365.jpg" class="Sidebar-ads"   width="200" height="200">
+            <img src="https://newspaperads.ads2publish.com/wp-content/uploads/2019/07/ambience-mall-biggest-sale-with-blockbuster-prizes-ad-delhi-times-13-07-2019-250x399.png" class="Sidebar-ads"   width="200" height="200">
+             
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+              </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-774909.jpg&fm=jpg" class="Sidebar-ads"   width="50" height="50">
+                </div>
+                <p>Alisha Sharma</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" class="Sidebar-ads"   width="50" height="50">
+                </div>
+                <p>Piyush Verma</p>
+            </div>
+            
+            
+        </div>
+      </div>
+
+    </div>
+
+
+
+<script src="script1.js"></script>
+</body>
+</html>
